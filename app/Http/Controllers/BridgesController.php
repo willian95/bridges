@@ -17,7 +17,7 @@ class BridgesController extends Controller
 
             if($port->port_number == $port_number)
             {   
-                dd($port);
+                
                 $data[] = [
                     'port_number' => $port->port_number,
                     'crossing_name' => $port->crossing_name,

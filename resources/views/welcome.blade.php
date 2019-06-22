@@ -40,7 +40,7 @@
                             @else
                                 <p><i class="fas fa-unlock"></i>{{ $bridge['port_status'] }}</p>
                             @endif  
-                            <a href="{{ url('/bridge/'.$bridge['port_number']) }}" class="text-primary">Learn more <i class="mdi mdi-arrow-right ml-1"></i></a>
+                            <a href="{{ url('/bridge/'.$bridge['port_number']) }}" class="text-primary">See <i class="mdi mdi-arrow-right ml-1"></i></a>
                         </div>
                     </div>
                 </div>
